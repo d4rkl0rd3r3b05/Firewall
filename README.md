@@ -76,11 +76,11 @@ FEATURES
 
 Functions
 ----------
-Enable firewall
-Disable firewall
-Flush iptables
-Insert rules to iptables
-Append rules to iptables
+-Enable firewall
+-Disable firewall
+-Flush iptables
+-Insert rules to iptables
+-Append rules to iptables
 Remove rules from iptables
 Save iptables rules
 Restore iptables rules
@@ -105,10 +105,10 @@ Null  Attack
 
 Miscellaneous
 --------------
-Machine-Architecture neutral
-GUI
-Portable
-Small Sized
+-Machine-Architecture neutral
+-GUI
+-Portable
+-Small Sized
 
 
 
@@ -116,9 +116,9 @@ Small Sized
 REQUIREMENTS
 ===============
 
-Software is independent of Machine-Architecture
-Linux, Unix or Unix-like OS's
-Python-2.6 or later
-IPTables
+-Software is independent of Machine-Architecture
+-Linux, Unix or Unix-like OS's
+-Python-2.6 or later
+-IPTables
 
 
