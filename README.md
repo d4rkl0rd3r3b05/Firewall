@@ -136,8 +136,12 @@ Essentially an empty action. Can be used when you want to assign an option, 	suc
  - Linux, Unix or Unix-like OS's
  - Python-2.6 or later
  - IPTables
+ - Tkinter
  
 
+#### HOW TO RUN
+In order to run the project run file **firewall.pyw** with python
+ 
 
 #### PROBLEMS
 
