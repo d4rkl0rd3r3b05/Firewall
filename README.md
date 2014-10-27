@@ -39,37 +39,34 @@ Accept
 Allows the packet through the firewall. No subsequent rules are applied. This action has no parameters.
 
 
-
 Deny
 ------
-   Silently drops the packet. No subsequent rules are applied. This action has no	parameters.
-
+Silently drops the packet. No subsequent rules are applied. This action has no	parameters.
 
 
 Reject
-      	Packet is dropped and an appropriate message is sent back to the sender. No                                                                                  	subsequent rules are applied. This action has a parameter that lets you specify how 	the firewall reacts to the packet. Parameter options include TCP RST and a 	number of ICMP  messages.
-
-
+-------
+Packet is dropped and an appropriate message is sent back to the sender. No subsequent rules are applied. This action has a parameter that lets you specify how	the firewall reacts to the packet. Parameter options include TCP RST and a number of ICMP  messages.
 
 
 Accounting/Count
-     	Counts packets that match the rule, but makes no decision on the packet. Even if 	the packet matches, the inspection process continues with other rules below it. 	This action has a parameter for specifying the rule name for accounting.
-
+------------------
+Counts packets that match the rule, but makes no decision on the packet. Even if 	the packet matches, the inspection process continues with other rules below it. 	This action has a parameter for specifying the rule name for accounting.
 
 
 Queue/Pipe
-      	Passes the packet to a user space process for inspection. It is translated into 	QUEUE for iptables and "divert" for ipfw. This action is only supported by 	compilers for iptables and ipfw. This action has no parameters.
+-----------
+Passes the packet to a user space process for inspection. It is translated into 	QUEUE for iptables and "divert" for ipfw. This action is only supported by 	compilers for iptables and ipfw. This action has no parameters.
       
 
-
-
 Routing
-      	Makes the firewall route matching packets through a specified interface or a 	gateway. This action is translated into ROUTE target for iptables and route option 	for PF and ipfilter. Compilers for PF and ipfilter support "fastroute", "route-to", 	"reply-to" and "dup-to" options. Parameters let you change the inbound and 	outbound interface and route the packet through a specified gateway. You can also 	tell the firewall to continue inspecting the packet after a match, and you can tell 	the firewall to make these changes to a copy of the packet while allowing the 	original packet to proceed normally.
-
+---------
+Makes the firewall route matching packets through a specified interface or a 	gateway. This action is translated into ROUTE target for iptables and route option 	for PF and ipfilter. Compilers for PF and ipfilter support "fastroute", "route-to", 	"reply-to" and "dup-to" options. Parameters let you change the inbound and 	outbound interface and route the packet through a specified gateway. You can also 	tell the firewall to continue inspecting the packet after a match, and you can tell 	the firewall to make these changes to a copy of the packet while allowing the 	original packet to proceed normally.
 
 
 Continue
-   	Essentially an empty action. Can be used when you want to assign an option, 	such as logging, to a match but take no other action in that rule. This action has no 	parameters.
+---------
+Essentially an empty action. Can be used when you want to assign an option, 	such as logging, to a match but take no other action in that rule. This action has no 	parameters.
 
 
 
