@@ -42,7 +42,7 @@ IPtables firewall contains 3 tables, every table contains chains. Those chains a
 #### TYPES OF IPTABLES TABLES
 
 
-#### *Filter Table*
+#### Filter Table
 This table is used to filter packets that pass the firewall. Its purpose is only packet filtering, and will filter packets that comes to the machine (incoming), packets that goes out (outgoing) and packets that are forwarded between network cards (filtering), in case that machine has two or more network cards.
 That table contains 3 chains: INPUT chain, OUTPUT chain and FORWARD chain.
 
@@ -53,7 +53,7 @@ That table contains 3 chains: INPUT chain, OUTPUT chain and FORWARD chain.
  - FORWARD chain - used to filter forwarded packets (between network cards).
 
 
-#### *Nat Table*
+#### Nat Table
 This table is used to change source of the IP.
  
  - PREROUTING chain - used to change IP before forwarding take place
@@ -63,7 +63,7 @@ This table is used to change source of the IP.
  - OUTPUT chain - used to filter on outgoing
 
 
-#### *Mangling Table*
+#### Mangling Table
 This tables is used to modify packets.
 
 
