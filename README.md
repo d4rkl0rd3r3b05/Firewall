@@ -36,8 +36,9 @@ IPtables is an administration tool for IPv4 packet filtering and NAT. It is a us
 	
 IPtables requires elevated privileges to operate and must be executed by user root, otherwise it fails to function. On most Linux systems, iptables is installed as /usr/sbin/iptables and documented in its man page, which can be opened using man iptables when installed. It may also be found in /sbin/iptables, but since iptables is not an "essential binary", but more like a service, the preferred location remains /usr/sbin.
 
-	IPtables is also commonly used to inclusively refer to the kernel-level components. x_tables is the name of the kernel module carrying the shared code portion used by all four modules that also provides the API used for extensions; subsequently, Xtables is more or less used to refer to the entire firewall (v4,v6,arp,eb) architecture.
-	IPtables firewall contains 3 tables, every table contains chains. Those chains are default. User is able to define new chains and link from default chains to those user defined chains.
+IPtables is also commonly used to inclusively refer to the kernel-level components. x_tables is the name of the kernel module carrying the shared code portion used by all four modules that also provides the API used for extensions; subsequently, Xtables is more or less used to refer to the entire firewall (v4,v6,arp,eb) architecture.
+
+IPtables firewall contains 3 tables, every table contains chains. Those chains are default. User is able to define new chains and link from default chains to those user defined chains.
 
 
 
