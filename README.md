@@ -97,11 +97,11 @@ Functions
    - Redirection
    - Parameter Problem
    - Others
- - Attack Filtration
-Syn Flooding Attack
-Server Panic Attack
-Xmas Attack
-Null  Attack
+ - **Attack Filtration**
+   - Syn Flooding Attack
+   - Server Panic Attack
+   - Xmas Attack
+   - Null  Attack
 
 Miscellaneous
 --------------
