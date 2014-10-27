@@ -5,8 +5,8 @@ Graphical Firewall based on UFW created in python(using TKinter) that ease off t
 #### SCANNED FIELDS
 
 Network packets are scanned for following key fields :
-- *Addresses* 	  - Source Address and Destination Address 
-- *Port Numbers*  - Source port and destination port numbers
+- *Addresses*` 	  - Source Address and Destination Address `
+- *Port Numbers*` - Source port and destination port numbers`
 - *Protocols*     - TCP, UDP, SCTP, ICMP, ESP, UDPLITE and AH.
 - *Mask*	  - Source-Address or Destination-Address mask.
 - *Name*	  - Source or Destination network  or  host name.
