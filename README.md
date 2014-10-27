@@ -140,7 +140,7 @@ Essentially an empty action. Can be used when you want to assign an option, 	suc
  
 
 #### HOW TO RUN
-In order to run the project run file **firewall.pyw** with python
+In order to run the project execute the file **Firewall/firewall.pyw** with python.
  
 
 #### PROBLEMS
