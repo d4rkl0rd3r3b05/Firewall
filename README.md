@@ -29,6 +29,51 @@ Others- Fragmentation, Connection byte, Connection limit, Payload length,Physica
 
 
 
+IPTABLES
+============
+IPtables is an administration tool for IPv4 packet filtering and NAT. It is a user space application program that allows a system administrator to configure the tables provided by the Linux kernel firewall (implemented as different Netfilter modules) and the chains and rules it stores. Different kernel modules and programs are currently used for different protocols; iptables applies to IPv4, ip6tables to IPv6, arptables to ARP, and ebtables  for Ethernet frames.
+
+	
+IPtables requires elevated privileges to operate and must be executed by user root, otherwise it fails to function. On most Linux systems, iptables is installed as /usr/sbin/iptables and documented in its man page, which can be opened using man iptables when installed. It may also be found in /sbin/iptables, but since iptables is not an "essential binary", but more like a service, the preferred location remains /usr/sbin.
+
+	IPtables is also commonly used to inclusively refer to the kernel-level components. x_tables is the name of the kernel module carrying the shared code portion used by all four modules that also provides the API used for extensions; subsequently, Xtables is more or less used to refer to the entire firewall (v4,v6,arp,eb) architecture.
+	IPtables firewall contains 3 tables, every table contains chains. Those chains are default. User is able to define new chains and link from default chains to those user defined chains.
+
+
+
+TYPES OF IPTABLES TABLES
+---------------------------
+
+
+*Filter Table*
+-------------
+This table is used to filter packets that pass the firewall. Its purpose is only packet filtering, and will filter packets that comes to the machine (incoming), packets that goes out (outgoing) and packets that are forwarded between network cards (filtering), in case that machine has two or more network cards.
+That table contains 3 chains: INPUT chain, OUTPUT chain and FORWARD chain.
+
+ - INPUT chain - used to filter incoming packets
+
+ - OUTPUT chain - used to filter outgoing packets
+
+ - FORWARD chain - used to filter forwarded packets (between network cards).
+
+
+*Nat Table*
+-----------
+This table is used to change source of the IP.
+ 
+ - PREROUTING chain - used to change IP before forwarding take place
+
+ - POSTROUTING chain - used to change IP after forwarding take place
+
+ - OUTPUT chain - used to filter on outgoing
+
+
+*Mangling Table*
+---------------
+This tables is used to modify packets.
+
+
+
 ACTIONS
 ==========
 
