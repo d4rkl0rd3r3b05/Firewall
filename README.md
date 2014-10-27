@@ -116,9 +116,9 @@ Miscellaneous
 REQUIREMENTS
 ===============
 
--Software is independent of Machine-Architecture
--Linux, Unix or Unix-like OS's
--Python-2.6 or later
--IPTables
+*Software is independent of Machine-Architecture
+*Linux, Unix or Unix-like OS's
+*Python-2.6 or later
+*IPTables
 
 
