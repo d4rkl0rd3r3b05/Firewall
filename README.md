@@ -36,7 +36,7 @@ Based on the  above information a network packet following actions can be taken:
 
 Accept
 ------
- 		Allows the packet through the firewall. No subsequent rules are applied. This action has no parameters.
+Allows the packet through the firewall. No subsequent rules are applied. This action has no parameters.
 
 
 
