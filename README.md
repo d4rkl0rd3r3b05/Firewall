@@ -105,10 +105,10 @@ Null  Attack
 
 Miscellaneous
 --------------
--Machine-Architecture neutral
--GUI
--Portable
--Small Sized
+ - Machine-Architecture neutral
+ - GUI
+ - Portable
+ - Small Sized
 
 
 
