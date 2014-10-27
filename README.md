@@ -203,10 +203,10 @@ BOOKS
 
 WEBSITES
 -----------
- - www.linuxforums.org
+ - (www.linuxforums.org)
  - www.python-forum.org
  - www.linuxreport.org
- - en.wikipedia.org
+ - (en.wikipedia.org)
 
 
 
