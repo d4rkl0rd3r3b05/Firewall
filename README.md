@@ -76,7 +76,6 @@ FEATURES
 
 Functions
 ----------
-
 Enable firewall
 Disable firewall
 Flush iptables
