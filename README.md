@@ -1,4 +1,5 @@
 ## Firewall
+--------------
 
 Graphical Firewall based on UFW created in python(using TKinter) that ease off the work of a network administrator to secure a network. The problem that the ‘FIREWALL’ aims, is to filter network packets according to some rules as set by the administrator. This tool scans a network packet for fields like source address, destination address, source port, destination port, service, protocol, flags(like SYN, ACK, FIN etc.) and other options(like fragmentation, physical address, length of payload, owner, connection options etc.). To provide all these filtering  facilities, the tool used the tables provided by the Linux kernel firewall (implemented as different Netfilter modules). The tool probes all the incoming, outgoing and forwarded network packets once it is enabled  in order to filter out or do as commanded by the administrator in case of a match. The tool aims to reduce human efforts required to filter and protect a particular network or a host as done using various packet scannin g and filtering techniques, by providing a automated graphical tool to do the same.  The need of this tool is for protecting and managing a network or a  host properly and efficiently in order to receive high throughput. Also the tool can be used to detect any potential attack or breach that may be attempted on a particular network or on any particular host by configuring it to generate custom warning messages when certain criteria is fulfilled. The need of this system exists because, even though functionalities pertaining to scanning and filtering the network have been in existence for such a long time, but still they require of huge man-power that can cause huge loss in time and varying consistency-levels, thus hampering the working efficiency of the network administration system. As this tool is Graphical thus it can be used with great ease without much difficulty.
 
@@ -28,6 +29,7 @@ Others- Fragmentation, Connection byte, Connection limit, Payload length,Physica
 
 
 ### IPTABLES
+--------------
 IPtables is an administration tool for IPv4 packet filtering and NAT. It is a user space application program that allows a system administrator to configure the tables provided by the Linux kernel firewall (implemented as different Netfilter modules) and the chains and rules it stores. Different kernel modules and programs are currently used for different protocols; iptables applies to IPv4, ip6tables to IPv6, arptables to ARP, and ebtables  for Ethernet frames.
 
 	
