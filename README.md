@@ -206,7 +206,7 @@ WEBSITES
  - www.linuxforums.org
  - www.python-forum.org
  - www.linuxreport.org
- - [Wiki!](en.wikipedia.org)
+ - [en.wikipedia.org](en.wikipedia.org)
 
 
 
