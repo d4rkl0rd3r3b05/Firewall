@@ -76,28 +76,28 @@ FEATURES
 
 Functions
 ----------
--Enable firewall
--Disable firewall
--Flush iptables
--Insert rules to iptables
--Append rules to iptables
-Remove rules from iptables
-Save iptables rules
-Restore iptables rules
-Force default settings to iptables
-List available interfaces
-Display network connections (both incoming and outgoing)
-List iptables rules
-ICMP Filtration
-Echo Request
-Echo Reply
-Timstamping
-Address Masking
-Source-Quenching
-Redirection
-Parameter Problem
-Others
-Attack Filtration
+ - Enable firewall
+ - Disable firewall
+ - Flush iptables
+ - Insert rules to iptables
+ - Append rules to iptables
+ - Remove rules from iptables
+ - Save iptables rules
+ - Restore iptables rules
+ - Force default settings to iptables
+ - List available interfaces
+ - Display network connections (both incoming and outgoing)
+ - List iptables rules
+ - **ICMP Filtration**
+   - Echo Request
+   - Echo Reply
+   - Timstamping
+   - Address Masking
+   - Source-Quenching
+   - Redirection
+   - Parameter Problem
+   - Others
+ - Attack Filtration
 Syn Flooding Attack
 Server Panic Attack
 Xmas Attack
@@ -116,10 +116,10 @@ Miscellaneous
 REQUIREMENTS
 ===============
 
- * Software is independent of Machine-Architecture
- * Linux, Unix or Unix-like OS's
- * Python-2.6 or later
- * IPTables
+ - Software is independent of Machine-Architecture
+ - Linux, Unix or Unix-like OS's
+ - Python-2.6 or later
+ - IPTables
 
 
 
