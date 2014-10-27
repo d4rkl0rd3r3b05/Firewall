@@ -166,6 +166,49 @@ REQUIREMENTS
  - Linux, Unix or Unix-like OS's
  - Python-2.6 or later
  - IPTables
+ 
+
+
+PROBLEMS
+==========
+
+
+Inability  to Distinguish
+----------------------------
+
+The tool cannot distinguish between a genuine packet and a malicious packet. It simply follow the set rules in order to filter packets, which may sometimes  disrupt normal services.
+
+Speed
+--------
+Use of scripting language results in a speed constraints. But the constraint is acceptable, as use of python provides complete portability.
+
+Memory
+--------
+Large amount of memory is consumed if there are many rules to be handled. And system may sometime hang. 
+
+Weakness
+---------
+The tool can still be cheated to get through it, using various advance skills. The tool does not check for tunneling and wrap-up connection, and can thus be breached.
+
+
+REFERENCES
+==============
+
+BOOKS
+-------
+ - Python 2.1 bible
+ - IPtables - tutorial
+ - TCP-IP Network Administration, 3rd Edition
+ - IPtables  manpages
+
+WEBSITES
+-----------
+ - www.linuxforums.org
+ - www.python-forum.org
+ - www.linuxreport.org
+ - en.wikipedia.org
+
+
 
 
 
